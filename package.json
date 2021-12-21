@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "serverless": "^1.55.1",
-    "serverless-google-cloudfunctions": "^2.3.3"
+    "serverless-google-cloudfunctions": "^3.1.1"
   },
   "dependencies": {
     "@google-cloud/bigquery": "^4.3.0",
