@@ -49,7 +49,7 @@ FROM (
     *,
     ROW_NUMBER() OVER(PARTITION BY symbol, tick) row_number
   FROM
-    \`etl-data-meetup.stock_dataset.stock_table\`
+    \`bigquery-stock-av.stock_dataset.stock_table\`
   WHERE
     date = '${date}')
 WHERE

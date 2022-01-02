@@ -16,7 +16,7 @@ exports.getTableContent = async (dataset, table) => {
   const [results] = await client.query(`SELECT
   *
 FROM 
-\`etl-data-meetup.${dataset}.${table}\`;
+\`bigquery-stock-av.${dataset}.${table}\`;
 `);
   return results;
 }
